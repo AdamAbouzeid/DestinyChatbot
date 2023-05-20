@@ -1,0 +1,6 @@
+Primary (Sidearm)
+Special (Shotgun)
+Heavy (Sword)
+Primary (x) -> -Special (x) & -Heavy (x)
+Special (x) -> -Primary (x) & -Heavy (x)
+Heavy (x) -> -Primary (x) & -Special (x)

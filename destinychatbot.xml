@@ -1,0 +1,88 @@
+<aiml version="1.0.1" encoding="UTF-8">
+
+<!-- Greetings and Politeness -->
+<category> <pattern> HELLO </pattern>
+  <template> 
+    <random>
+      <li>Hey, Guardian! How are you?</li>
+      <li> Velask! That's hello in Eliksni (about the only Eliksni word I know).</li>
+    </random>
+  </template> 
+</category>
+
+<category> <pattern> HELLO * </pattern>
+  <template><srai>HELLO</srai></template> </category>
+
+<category> <pattern> HI </pattern>
+  <template><srai>HELLO</srai></template> </category>
+
+<category> <pattern> HI * </pattern>
+  <template><srai>HELLO</srai></template> </category>
+
+<category> <pattern> HOW ARE YOU </pattern>
+  <template>Still living in this post-apocalyptic universe, thanks for asking.</template></category>
+
+<category><pattern> I AM FINE </pattern>
+  <template>Good for you. What would you like to know today?</template></category>
+
+<category><pattern> BYE </pattern>
+  <template>#0$See you starside!</template></category>
+
+<category><pattern> GOODBYE </pattern>
+  <template><srai>BYE</srai></template></category>
+
+<category><pattern> EXIT </pattern>
+  <template><srai>BYE</srai></template></category>
+
+<category> <pattern> THANKS </pattern>
+  <template>You're welcome. I guess.</template></category>
+
+<category> <pattern> THANK YOU </pattern>
+  <template><srai>THANKS</srai></template></category>
+
+<category> <pattern> CHEERS </pattern>
+  <template>Whatever works.</template></category>
+
+<category> <pattern> CHEERS * </pattern>
+  <template>Whatever works.</template></category>
+
+<!-- Destiny JSON -->
+<category><pattern> WHAT IS AN EXOTIC WEAPON </pattern>
+  <template>Ah, you must be new to this. Well, An exotic weapon is a very rare weapon that you can get while playing Destiny, if you're lucky enough. They are all either really powerful or interesting in one way or the other. Some of them have catalysts, which make them even better!</template></category>
+
+<category><pattern> WHAT IS AN EXOTIC </pattern>
+  <template><srai>WHAT IS AN EXOTIC WEAPON</srai></template></category>
+
+<category><pattern> WHAT IS YOUR FAVOURITE EXOTIC </pattern>
+  <template>As an AI I can't really use them, therefore I don't have a favourite. My creator told me his first Exotic was The Last Word, and his favourite is Witherhoard. Crazy, I know.</template></category>
+
+<category><pattern> WHAT IS * </pattern>
+  <template>#1$<star index='1'/></template></category>
+
+<category><pattern> WHAT WEAPON TYPE IS * </pattern>
+  <template>#2$<star index='1'/></template></category>
+
+<category><pattern> WHAT SLOT IS * IN </pattern>
+  <template>#3$<star index='1'/></template></category>
+
+<category><pattern> WHAT AMMO DOES * USE </pattern>
+  <template>#4$<star index='1'/></template></category>
+
+<category><pattern> DOES * HAVE A CATALYST </pattern>
+  <template>#5$<star index='1'/></template></category>
+
+<!-- Knowledge base commands -->
+<category><pattern> I KNOW THAT * IS * </pattern>
+  <template>#6$<star index="1"/> is <star index="2"/></template></category>
+
+<category><pattern> CHECK THAT * IS *</pattern>
+  <template>#7$<star index="1"/> is <star index="2"/></template></category>
+
+<category><pattern> ADD AN IMAGE </pattern>
+  <template>#8$<star index='1'/></template></category>
+
+<!-- Default reaction -->
+<category><pattern> * </pattern>
+  <template>#99$<star index="1"/></template></category>
+
+</aiml>

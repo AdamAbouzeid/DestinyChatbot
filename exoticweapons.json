@@ -1,0 +1,770 @@
+{
+    "weapons" : 
+    [
+        {
+            "name": "Cerberus+1",
+            "slot": "Kinetic",
+            "type": "Auto Rifle",
+            "ammo": "Primary",
+            "intrinsicperk": "Four Headed Dog: Shoot erratic bullets from all gun barrels at the same time.",
+            "mainperk": "Spread Shot Package: Aiming this weapon reduces the spread of its projectiles.",
+            "catalyst": "Focused Fire: Swap to a tighter, close-ranged spread."
+        },
+        {
+            "name": "Monte Carlo",
+            "slot": "Kinetic",
+            "type": "Auto Rifle",
+            "ammo": "Primary",
+            "intrinsicperk": "Monte Carlo Method: Dealing damage with this weapon reduces your melee cooldown and grants a chance to fully charge your melee ability with each kill.",
+            "mainperk": "Markov Chain: This weapon gains increased damage from melee kills and kills with this weapon.",
+            "catalyst": "None."
+        },
+        {
+            "name": "SUROS Regime",
+            "slot": "Kinetic",
+            "type": "Auto Rifle",
+            "ammo": "Primary",
+            "intrinsicperk": "SUROS Legacy: The bottom half of each magazine deals bonus damage and has a chance to return health on kill.",
+            "mainperk": "Spinning Up: Holding down the trigger increases rate of fire. OR Dual Speed Receiver: When aiming down sights, weapon rate of fire slows while weapon damage increases.",
+            "catalyst": "SUROS Ascendance: Increased chance for kills to regen health."
+        },
+        {
+            "name": "Sweet Business",
+            "slot": "Kinetic",
+            "type": "Auto Rifle",
+            "ammo": "Primary",
+            "intrinsicperk": "Payday: Larger magazine. Increased accuracy when firing from the hip. Picking up Special or Heavy ammo immediately reloads this weapon.",
+            "mainperk": "Business Time: Sustained fire boosts range and rate of fire.",
+            "catalyst": "Serious Business: When this weapon is fully spun up, the flinch from incoming damage is greatly reduced."
+        },
+        {
+            "name": "Wish-Ender",
+            "slot": "Kinetic",
+            "type": "Combat Bow",
+            "ammo": "Primary",
+            "intrinsicperk": "Queen's Wrath: While aiming down sights with a fully-drawn bow, enemies behind walls are highlighted.",
+            "mainperk": "Broadhead: Piercing arrowhead that damages the target on entry and exit. One shot can overpenetrate multiple targets.",
+            "catalyst": "None."
+        },
+        {
+            "name": "Bastion",
+            "slot": "Kinetic",
+            "type": "Fusion Rifle",
+            "ammo": "Special",
+            "intrinsicperk": "Saint's Fists: Charge to fire 3 spreads of Kinetic slugs.",
+            "mainperk": "Breakthrough: This weapon fires [Stagger] staggering projectiles. Strong against Unstoppable Champions.",
+            "catalyst": "None."
+        },
+        {
+            "name": "Witherhoard",
+            "slot": "Kinetic",
+            "type": "Grenade Launcher",
+            "ammo": "Special",
+            "intrinsicperk": "Primeval's Torment: Projectiles fired by this weapon blight the target or nearby area on impact.",
+            "mainperk": "Break The Bank: Blighted targets take damage over time and blight the nearby area on death.",
+            "catalyst": "Handling +40 AND Silent Alarm: Holstering this weapon automatically reloads it after a short time."
+        },
+        {
+            "name": "Ace Of Spades",
+            "slot": "Kinetic",
+            "type": "Hand Cannon",
+            "ammo": "Primary",
+            "intrinsicperk": "Memento Mori: Reloading after a kill loads magazine with a few extra-damage bullets. Grants radar while aiming down sights.",
+            "mainperk": "Firefly: Precision kills with this weapon increase reload speed and cause the target to explode, dealing Solar damage to nearby enemies.",
+            "catalyst": "Funeral Pyre: Firefly deals more damage while Memento Mori is active."
+        },
+        {
+            "name": "Crimson",
+            "slot": "Kinetic",
+            "type": "Hand Cannon",
+            "ammo": "Primary",
+            "intrinsicperk": "Banned Weapon: This weapon fires a 3-round burst.",
+            "mainperk": "Cruel Remedy: Kills with this weapon heal the wielder. Precision kills also refill the magazine.",
+            "catalyst": "Range +20"
+        },
+        {
+            "name": "Hawkmoon",
+            "slot": "Kinetic",
+            "type": "Hand Cannon",
+            "ammo": "Primary",
+            "intrinsicperk": "Paracausal Shot: Final blows and precision hits with Hawkmoon grant stacks of Paracausal Charge. The final round in the magazine deals bonus damage based on the number of stacks. Stowing Hawkmoon on the final round removes this bonus.",
+            "mainperk": "Transformative: Future drops of this weapon will have random rolls.",
+            "catalyst": "Magazine +10 AND Hunter's Trance: Grants increased handling, reload speed, and weapon range based on the number of stacks of Paracausal Charge."
+        },
+        {
+            "name": "Lumina",
+            "slot": "Kinetic",
+            "type": "Hand Cannon",
+            "ammo": "Primary",
+            "intrinsicperk": "Noble Rounds: Kills with this weapon leave behind Remnants. Absorbing a Remnant converts your next hipfired shot into an ally-seeking Noble Round and partially refills the magazine.",
+            "mainperk": "Blessing of the Sky: Using a Noble Round on an ally heals them and grants both you and them a weapon damage bonus for a short duration.",
+            "catalyst": "Resonant Virtue: Gain two Remnants per final blow instead of one."
+        },
+        {
+            "name": "Malfeasance",
+            "slot": "Kinetic",
+            "type": "Hand Cannon",
+            "ammo": "Primary",
+            "intrinsicperk": "Explosive Shadow: Shoot tainted slugs that burrow into the enemy. Stacking enough slugs causes them all to explode.",
+            "mainperk": "Taken Predator: Bonus damage against Taken enemies and Gambit invaders.",
+            "catalyst": "None."
+        },
+        {
+            "name": "Sturm",
+            "slot": "Kinetic",
+            "type": "Hand Cannon",
+            "ammo": "Primary",
+            "intrinsicperk": "Accomplice: Kills with this weapon fill the magazine of the equipped Energy weapon from reserves.",
+            "mainperk": "Storm and Stress: Kills with Drang reload this weapon and overflow a bonus damage round into the magazine.",
+            "catalyst": "Range +20 AND Handling +40"
+        },
+        {
+            "name": "The Last Word",
+            "slot": "Kinetic",
+            "type": "Hand Cannon",
+            "ammo": "Primary",
+            "intrinsicperk": "Fan Fire: This weapon fires full auto. Hip-fire shots deal bonus precision damage while increasing reload speed and accuracy.",
+            "mainperk": "Hip-Fire Grip: Increases accuracy, stability, and precision hit targeting when firing from the hip.",
+            "catalyst": "None."
+        },
+        {
+            "name": "Thorn",
+            "slot": "Kinetic",
+            "type": "Hand Cannon",
+            "ammo": "Primary",
+            "intrinsicperk": "Mark of the Devourer: Rounds pierce targets and deal damage over time. Kills with this weapon leave behind Remnants.",
+            "mainperk": "Soul Devourer: Absorbing a Remnant strengthens Mark of the Devourer and partially refills the magazine.",
+            "catalyst": "None."
+        },
+        {
+            "name": "Arbalest",
+            "slot": "Kinetic",
+            "type": "Linear Fusion Rifle",
+            "ammo": "Special",
+            "intrinsicperk": "Compounding Force: Fires slugs that cause massive damage to enemy shields. Strong against [Shield-Piercing] Barrier Champions.",
+            "mainperk": "Disruption Break: Breaking an enemy's shield with this weapon makes them more vulnerable to Kinetic damage for a brief period.",
+            "catalyst": "Handling +20 AND Magazine +30 AND Genesis: Breaking a combatant's shield with this weapon fills its magazine from reserves. Energy weapons regenerate ammo on hit when matching the damage type to the combatant's shield."
+        },
+        {
+            "name": "Bad Juju",
+            "slot": "Kinetic",
+            "type": "Pulse Rifle",
+            "ammo": "Primary",
+            "intrinsicperk": "String of Curses: Kills refill the magazine, increase damage for a short duration, and grant Super energy based on the strength of String of Curses. Fires full-auto.",
+            "mainperk": "Hip-Fire Grip: Increases accuracy, stability, and precision hit targeting when firing from the hip.",
+            "catalyst": "Unending Curse: Extends the duration of String of Curses."
+        },
+        {
+            "name": "No Time To Explain",
+            "slot": "Kinetic",
+            "type": "Pulse Rifle",
+            "ammo": "Primary",
+            "intrinsicperk": "Rewind Again: Precision shots and shots against combatants slowed or frozen by Stasis will return to the magazine.",
+            "mainperk": "Time-Slip: At 10 stacks of Rewind Again, a small portal will open, shooting bullets from an alternate timeline version of this weapon. Precision hits extend the portal's duration.",
+            "catalyst": "Blast from the Side: Projectiles from the time portal shoot more frequently."
+        },
+        {
+            "name": "Outbreak Perfected",
+            "slot": "Kinetic",
+            "type": "Pulse Rifle",
+            "ammo": "Primary",
+            "intrinsicperk": "The Corruption Spreads: This weapon creates SIVA nanite swarms on rapid hits and precision kills.",
+            "mainperk": "Parasitism: This weapon does more damage to enemies based on the number of SIVA nanites that attach to them.",
+            "catalyst": "Disease Vector: Increases nanite damage. Enemies that die with nanites attached to them generate additional nanites."
+        },
+        {
+            "name": "Vigilance Wing",
+            "slot": "Kinetic",
+            "type": "Pulse Rifle",
+            "ammo": "Primary",
+            "intrinsicperk": "Harsh Truths: This weapon fires a 5-round burst. When a nearby ally is killed, gain health regeneration and increased movement speed.",
+            "mainperk": "Last Stand: Improved weapon performance and greatly increased recovery when its wielder is the last living member of a fireteam.",
+            "catalyst": "Full Auto Trigger System: Holding down the trigger will fire this weapon at full auto."
+        },
+        {
+            "name": "Dead Man's Tale",
+            "slot": "Kinetic",
+            "type": "Scout Rifle",
+            "ammo": "Primary",
+            "intrinsicperk": "Cranial Spike: Chaining precision hits grants bonus damage and quickens reload speed.",
+            "mainperk": "Transformative: Future drops of this weapon will have random rolls.",
+            "catalyst": "Dark-Forged Trigger: Increased hipfire rate of fire and removes hipfire accuracy penalties."
+        },
+        {
+            "name": "MIDA Multi-Tool",
+            "slot": "Kinetic",
+            "type": "Scout Rifle",
+            "ammo": "Primary",
+            "intrinsicperk": "MIDA Multi-Tool: This weapon boosts move speed.",
+            "mainperk": "MIDA Radar: Radar stays active while aiming down sights.",
+            "catalyst": "No Distractions: Aiming this weapon for a short period reduces flinch."
+        },
+        {
+            "name": "The Jade Rabbit",
+            "slot": "Kinetic",
+            "type": "Scout Rifle",
+            "ammo": "Primary",
+            "intrinsicperk": "The Fate of All Fools: Chain body shots to gain bonus damage on your next precision shot and return ammo to the magazine.",
+            "mainperk": "Zen Moment: Causing damage with this weapon increases its stability.",
+            "catalyst": "Stability +30"
+        },
+        {
+            "name": "The Chaperone",
+            "slot": "Kinetic",
+            "type": "Shotgun",
+            "ammo": "Special",
+            "intrinsicperk": "Precision Slug: Fires a single-slug precision round.",
+            "mainperk": "The Roadborn: Precision kills briefly grant bonus handling, range, and precision damage with this weapon.",
+            "catalyst": "None."
+        },
+        {
+            "name": "Cryosthesia 77K",
+            "slot": "Stasis Kinetic",
+            "type": "Sidearm",
+            "ammo": "Primary",
+            "intrinsicperk": "LN2 Burst: Swap firing mode after a final blow to enable a Charged Shot.",
+            "mainperk": "Liquid Cooling: Direct hits by a Charged Shot instantly freeze the target. Indirect hits freeze combatants and slow enemy guardians.",
+            "catalyst": "Cold Efficiency: Shattering a frozen target refills this weapon's magazine from reserves."
+        },
+        {
+            "name": "Forerunner",
+            "slot": "Kinetic",
+            "type": "Sidearm",
+            "ammo": "Special",
+            "intrinsicperk": "Full Stop: Oversized Sidearm with extended-range, heavy-caliber rounds. Fires full auto with increased rate of fire. Deals increased precision damage to unshielded targets.",
+            "mainperk": "Pace Yourself: Tapping the trigger gives the weapon less recoil and improves accuracy.",
+            "catalyst": "The Rock: For several seconds after a final blow, [Alternate Weapon Action] to consume part of your ammo reserves, converting your next thrown grenade into a fragmentation grenade."
+        },
+        {
+            "name": "Rat King",
+            "slot": "Kinetic",
+            "type": "Sidearm",
+            "ammo": "Primary",
+            "intrinsicperk": "Rat Pack: This fully automatic weapon becomes stronger when nearby allies also have it equipped. Stacks up to 6 times.",
+            "mainperk": "Vermin: Reloading immediately after a kill grants a brief period of invisibility.",
+            "catalyst": "Infestation: Improved aim assist and recoil direction. Refreshes health on Vermin invisibility trigger."
+        },
+        {
+            "name": "Traveler's Chosen",
+            "slot": "Kinetic",
+            "type": "Sidearm",
+            "ammo": "Primary",
+            "intrinsicperk": "Gathering Light: Final blows with this weapon grant stacks of Gathering Light. Consume stacks, granting melee, grenade, and class ability energy based on the number of stacks.",
+            "mainperk": "Gift of the Traveler: Each stack of Gathering Light improves this weapon's reload, handling, and target acquisition.",
+            "catalyst": "Magazine +20 AND Osmosis: Using your grenade ability changes this weapon's damage type to match your subclass until you stow it. AND Full Auto Trigger System: Holding down the trigger will fire this weapon at full auto."
+        },
+        {
+            "name": "Izanagi's Burden",
+            "slot": "Kinetic",
+            "type": "Sniper Rifle",
+            "ammo": "Special",
+            "intrinsicperk": "Honed Edge: Consume the magazine and load a round with additional range and damage.",
+            "mainperk": "No Distractions: Aiming this weapon for a short period reduces flinch.",
+            "catalyst": "Peerless Edge: Increases the damage bonus of Honed Edge when four bullets are consumed."
+        },
+        {
+            "name": "The Huckleberry",
+            "slot": "Kinetic",
+            "type": "Submachine Gun",
+            "ammo": "Primary",
+            "intrinsicperk": "Ride the Bull: Increased rate of fire and recoil while you're holding down the trigger. Kills with this weapon reload a portion of the magazine.",
+            "mainperk": "Rampage: Kills with this weapon temporarily grant increased damage. Stacks 3x.",
+            "catalyst": "Bull Rider: Kills with this weapon now reload the entire magazine."
+        },
+        {
+            "name": "Ager's Sceptre",
+            "slot": "Stasis Kinetic",
+            "type": "Trace Rifle",
+            "ammo": "Special",
+            "intrinsicperk": "Ager's Call: Final blows with this weapon generate a slowing burst around the defeated target.",
+            "mainperk": "Rega's Refrain: Stasis final blows transfer ammo to this weapon's magazine from reserves.",
+            "catalyst": "Will Given Form: Drain Super energy, overflowing the magazine and empowering the beam with bonus damage and the ability to slow and freeze targets until the magazine or Super energy runs out, or the weapon is stowed. Can only be activated when Super energy is full."
+        },
+        {
+            "name": "Hard Light",
+            "slot": "Void/Solar/Arc Energy",
+            "type": "Auto Rifle",
+            "ammo": "Primary",
+            "intrinsicperk": "Volatile Light: Rounds fired from this weapon have reduced damage falloff, overpenetrate targets, and ricochet off hard surfaces. Projectile damage increases after bounce.",
+            "mainperk": "The Fundamentals: Change this weapon's damage type, cycling between Solar, Arc, and Void.",
+            "catalyst": "Stability +25"
+        },
+        {
+            "name": "Tommy's Matchbook",
+            "slot": "Solar Energy",
+            "type": "Auto Rifle",
+            "ammo": "Primary",
+            "intrinsicperk": "Ignition Trigger: Sustained fire with this weapon overheats it, increasing damage but burning the user.",
+            "mainperk": "Heat Sink: Overheat damage is reduced while not aiming down sights.",
+            "catalyst": "Heat of the Moment: While Ignition Trigger is active, your health recovers much faster."
+        },
+        {
+            "name": "Le Monarque",
+            "slot": "Void Energy",
+            "type": "Combat Bow",
+            "ammo": "Primary",
+            "intrinsicperk": "Poison Arrows: Arrows fired quickly after a full draw become poison arrows. Precision hits with poison arrows spread poison to nearby enemies.",
+            "mainperk": "Snapshot Sights: Faster time to aim down sights.",
+            "catalyst": "None."
+        },
+        {
+            "name": "Ticuu's Divination",
+            "slot": "Solar Energy",
+            "type": "Combat Bow",
+            "ammo": "Primary",
+            "intrinsicperk": "Sacred Flame: Hipfiring this weapon fires multiple tracking projectiles. Targets marked by these projectiles explode upon death, or when struck by another Sacred Flame's explosion.",
+            "mainperk": "Causality Arrows: Arrows fired while aiming down sights cause Sacred Flames to instantly detonate.",
+            "catalyst": "Causality Quiver: Perfectly drawn arrows that detonate Sacred Flames increase arrow damage. Striking targets unaffected by Sacred Flame instead refreshes Causality Arrows' duration."
+        },
+        {
+            "name": "Trinity Ghoul",
+            "slot": "Arc Energy",
+            "type": "Combat Bow",
+            "ammo": "Primary",
+            "intrinsicperk": "Split Electron: Fires an arrow that splits when released. Aiming down sights and fully drawing the bow both decrease the spread.",
+            "mainperk": "Lightning Rod: Precision kills grant the next shot chain-lightning capabilities.",
+            "catalyst": "Forked Lightning: Lightning Rod now triggers from any Arc damage final blow."
+        },
+        {
+            "name": "Jotunn",
+            "slot": "Solar Energy",
+            "type": "Fusion Rifle",
+            "ammo": "Special",
+            "intrinsicperk": "Charge Shot: Hold down the trigger to charge up a tracking shot that explodes and burns on impact.",
+            "mainperk": "Shield Disorient: Energy matched shield explosion disorients nearby combatants.",
+            "catalyst": "None."
+        },
+        {
+            "name": "Merciless",
+            "slot": "Solar Energy",
+            "type": "Fusion Rifle",
+            "ammo": "Special",
+            "intrinsicperk": "Conserve Momentum: Non-lethal hits with projectiles make this weapon charge faster until its wielder gets a kill.",
+            "mainperk": "Impetus: Reloading immediately after a kill increases weapon damage for a short time.",
+            "catalyst": "Range +40 AND Stability +40"
+        },
+        {
+            "name": "Telesto",
+            "slot": "Void Energy",
+            "type": "Fusion Rifle",
+            "ammo": "Special",
+            "intrinsicperk": "Unplanned Reprieve: Fusion projectiles attach and detonate with a delayed Void blast.",
+            "mainperk": "Harbinger's Pulse: Multikills with this weapon immediately reload your equipped Kinetic and Energy weapons from reserves.",
+            "catalyst": "Magazine +60 AND Deeper Pockets: Increased ammo reserves."
+        },
+        {
+            "name": "Vex Mythoclast",
+            "slot": "Solar Energy",
+            "type": "Fusion Rifle",
+            "ammo": "Primary",
+            "intrinsicperk": "Timeless Mythoclast: This weapon fires full auto when in its default firing mode.",
+            "mainperk": "Temporal Unlimiter: Defeating targets builds stacks of Overcharge.",
+            "catalyst": "Calculated Balance: While in full auto mode, final blows with this weapon grant bonus damage, accuracy, and stability for a short duration."
+        },
+        {
+            "name": "Fighting Lion",
+            "slot": "Void Energy",
+            "type": "Grenade Launcher",
+            "ammo": "Primary",
+            "intrinsicperk": "Delayed Gratification: Grenade projectiles will bounce off surfaces. [Shoot] : Fire; release to detonate.",
+            "mainperk": "Thin the Herd: Direct hits do more damage to enemy combatant shields. Dealing damage increases reload speed. Rapid kills against grenade-damaged enemies refill the magazine.",
+            "catalyst": "Reload Speed +30 AND Chimera: After this weapon fires, equipped Kinetic and Power weapons gain a brief period of increased handling and accuracy."
+        },
+        {
+            "name": "Eriana's Vow",
+            "slot": "Solar Energy",
+            "type": "Hand Cannon",
+            "ammo": "Special",
+            "intrinsicperk": "Looks Can Kill: This weapon fires special shield-piercing ammunition. It comes with a scope. Strong against [Shield-Piercing] Barrier Champions.",
+            "mainperk": "Death at First Glance: Bonus damage when aiming down sights on the opening shot of an attack. This bonus is preserved if the shot deals precision damage or strikes an elemental shield.",
+            "catalyst": "Magazine +30 AND More to Give: Increases magazine size. Holstering this weapon automatically reloads it after a short period of time."
+        },
+        {
+            "name": "Sunshot",
+            "slot": "Solar Energy",
+            "type": "Hand Cannon",
+            "ammo": "Primary",
+            "intrinsicperk": "Sunburn: This weapon fires explosive rounds and highlights targets that take damage from Sunshot.",
+            "mainperk": "Sunblast: Targets killed with Sunshot explode in Solar energy.",
+            "catalyst": "Range +30 AND Stability +20"
+        },
+        {
+            "name": "Lorentz Driver",
+            "slot": "Void Energy",
+            "type": "Linear Fusion Rifle",
+            "ammo": "Special",
+            "intrinsicperk": "Lagrangian Sight: This weapon marks targets with an automated targeting system. Final blows on marked targets generate a telemetry pattern. Collecting 3 telemetry patterns without dying grants this weapon bonus damage for a long duration.",
+            "mainperk": "EM Anomaly: A precision final blow with this weapon creates an implosion that pulls in nearby targets and damages them with an additional detonation.",
+            "catalyst": "Jump Driver: Lorentz Driver gains an enhanced radar. Additionally, while this weapon has 3 telemetry patterns, EM Anomaly detonations no longer require a precision final blow."
+        },
+        {
+            "name": "Graviton Lance",
+            "slot": "Void Energy",
+            "type": "Pulse Rifle",
+            "ammo": "Primary",
+            "intrinsicperk": "Black Hole: Second shot of a burst rips a hole through space-time, doing high damage and recoil with no falloff.",
+            "mainperk": "Cosmology: Kills with this weapon cause enemy targets to detonate and spawn Void projectiles that track targets.",
+            "catalyst": "Range +20 AND Hidden Hand: Better target acquisition."
+        },
+        {
+            "name": "Polaris Lance",
+            "slot": "Solar Energy",
+            "type": "Scout Rifle",
+            "ammo": "Primary",
+            "intrinsicperk": "The Perfect Fifth: Precision hits return ammo to the mag. Landing 4 precision hits loads a delayed Solar explosive round for your next shot.",
+            "mainperk": "Zen Moment: Causing damage with this weapon increases its stability.",
+            "catalyst": "Dragonfly: Precision kills create an elemental damage explosion."
+        },
+        {
+            "name": "Skyburner's Oath",
+            "slot": "Solar Energy",
+            "type": "Scout Rifle",
+            "ammo": "Primary",
+            "intrinsicperk": "Slug Rifle: This weapon lobs large, explosive, seeking slugs when you're firing from the hip. When you're aiming down sights, the slugs travel fast and straight, with higher damage and a lower rate of fire.",
+            "mainperk": "For the Empire: This weapon is Full Auto, does extra damage to Cabal, and penetrates Phalanx shields.",
+            "catalyst": "Range +30"
+        },
+        {
+            "name": "Symmetry",
+            "slot": "Arc Energy",
+            "type": "Scout Rifle",
+            "ammo": "Primary",
+            "intrinsicperk": "Revolution: This weapon fires full auto. Swap to Arc Seeker mode. Arc Seekers track toward combatants you target.",
+            "mainperk": "Dynamic Charge: Precision hits build up Dynamic Charge. Swapping to Arc Seeker mode increases damage and partially reloads the magazine based on the number of charges.",
+            "catalyst": "Electric Styx: Increases the maximum number of Dynamic Charge stacks."
+        },
+        {
+            "name": "Duality",
+            "slot": "Solar Energy",
+            "type": "Shotgun",
+            "ammo": "Special",
+            "intrinsicperk": "Compression Chamber: Fires a pellet spread in hip-fire or a single high-damage slug while aiming.",
+            "mainperk": "On Black Wings: Pellet final blows grant a stacking precision damage and reload speed buff. Precision hits with slugs extend the duration.",
+            "catalyst": "Range +20 AND Magazine +50"
+        },
+        {
+            "name": "Lord of Wolves",
+            "slot": "Solar Energy",
+            "type": "Shotgun",
+            "ammo": "Special",
+            "intrinsicperk": "Shrapnel Launcher: Fires a powerful short-range burst of Solar damage.",
+            "mainperk": "Release the Wolves: Swap to a longer, more powerful burst.",
+            "catalyst": "Fang and Claw: Increases reload speed while Release the Wolves is active, and increases stability when it is not."
+        },
+        {
+            "name": "The Fourth Horseman",
+            "slot": "Arc Energy",
+            "type": "Shotgun",
+            "ammo": "Special",
+            "intrinsicperk": "Thunderer: This weapon's rate of fire is increased significantly, and fires full auto.",
+            "mainperk": "Broadside: Each successive shot has more damage and more spread.",
+            "catalyst": "Reload Speed +40 AND Magazine +10 AND And Its Name Was Death: Adds an additional round to the magazine and increases reload speed."
+        },
+        {
+            "name": "Devil's Ruin",
+            "slot": "Solar Energy",
+            "type": "Sidearm",
+            "ammo": "Primary",
+            "intrinsicperk": "Close the Gap: Variable trigger. Press and release to fire individual shots. Hold to charge up a high-powered, [Stagger] stunning laser. Strong against Unstoppable Champions.",
+            "mainperk": "Pyrogenesis: Fully charging the laser refills the magazine from reserves.",
+            "catalyst": "None."
+        },
+        {
+            "name": "Borealis",
+            "slot": "Void/Solar/Arc Energy",
+            "type": "Sniper Rifle",
+            "ammo": "Special",
+            "intrinsicperk": "The Fundamentals: Change this weapon's damage type, cycling between Solar, Arc, and Void.",
+            "mainperk": "Ionic Return: Breaking an enemy shield transfers one bullet from reserves. Breaking a combatant shield—or the shield of a Guardian using a Super—with that shield's energy type grants bonus damage for the rest of the magazine.",
+            "catalyst": "Reload Speed +20"
+        },
+        {
+            "name": "Cloudstrike",
+            "slot": "Arc Energy",
+            "type": "Sniper Rifle",
+            "ammo": "Special",
+            "intrinsicperk": "Mortal Polarity: Precision final blows generate a lightning bolt at the target's location.",
+            "mainperk": "Stormbringer: Rapid precision hits create a lightning storm at the point of impact.",
+            "catalyst": "None."
+        },
+        {
+            "name": "Riskrunner",
+            "slot": "Arc Energy",
+            "type": "Submachine Gun",
+            "ammo": "Primary",
+            "intrinsicperk": "Arc Conductor: When taking Arc Damage, this weapon becomes more powerful and resists incoming Arc Damage. Kills extend the time in this overcharged state.",
+            "mainperk": "Superconductor: When Arc Conductor is active, shots fired have the chance to become chain lightning and return ammo.",
+            "catalyst": "Range +30"
+        },
+        {
+            "name": "Tarrabah",
+            "slot": "Solar Energy",
+            "type": "Submachine Gun",
+            "ammo": "Primary",
+            "intrinsicperk": "This weapon stores power when dealing or receiving damage. Unleashes the beast when full.",
+            "mainperk": "Bottomless Appetite: Dealing continuous damage extends the duration of Ravenous Beast.",
+            "catalyst": "None."
+        },
+        {
+            "name": "Coldheart",
+            "slot": "Arc Energy",
+            "type": "Trace Rifle",
+            "ammo": "Special",
+            "intrinsicperk": "Cold Fusion: This weapon shoots a steady cold fusion-powered laser.",
+            "mainperk": "Longest Winter: Coldheart's laser does exponentially more damage the longer it remains on a target.",
+            "catalyst": "Stability +20 AND Reload Speed +20"
+        },
+        {
+            "name": "Divinity",
+            "slot": "Arc Energy",
+            "type": "Trace Rifle",
+            "ammo": "Special",
+            "intrinsicperk": "Judgement: Sustained damage with this weapon envelops the target in a field that weakens and stuns them. Strong against [Disruption] Overload Champions.",
+            "mainperk": "Penance: Targets under the effects of Judgment long enough are struck with a burst of damage.",
+            "catalyst": "None."
+        },
+        {
+            "name": "Prometheus Lens",
+            "slot": "Solar Energy",
+            "type": "Trace Rifle",
+            "ammo": "Special",
+            "intrinsicperk": "Prismatic Inferno: Fires a Solar trace beam and generates a damaging heat field that grows while the weapon continues to fire.",
+            "mainperk": "Flame Refraction: Kills with this weapon return a fraction of the ammo used to the magazine from reserves, extending the beam's duration.",
+            "catalyst": "Stability +20 AND Handling +20"
+        },
+        {
+            "name": "Ruinous Effigy",
+            "slot": "Void Energy",
+            "type": "Trace Rifle",
+            "ammo": "Special",
+            "intrinsicperk": "Transmutation: Final blows with this weapon collapse victims into Void Transmutation spheres.",
+            "mainperk": "Evolution: Transmutation spheres you create can be picked up and wielded as weapons by you or your allies. [Light Attack] : Light attack [Heavy Attack] : Heavy attack [Block] : Guard/Drain nearby combatants",
+            "catalyst": "Deconstruction: This weapon deals increased damage against targets damaged by Transmutation spheres."
+        },
+        {
+            "name": "Wavesplitter",
+            "slot": "Void Energy",
+            "type": "Trace Rifle",
+            "ammo": "Special",
+            "intrinsicperk": "Harmonic Laser: Laser damage has three power levels that oscillate while the trigger is held down.",
+            "mainperk": "Supercharged Battery: Collecting an Orb of Power grants a short period of maximum power that starts with an automatic reload.",
+            "catalyst": "None."
+        },
+        {
+            "name": "Leviathan's Breath",
+            "slot": "Void Power",
+            "type": "Comabt Bow",
+            "ammo": "Heavy",
+            "intrinsicperk": "Big-Game Hunter: Fires a massive heavy bolt that stuns unshielded combatants. Strong against [Stagger] Unstoppable Champions.",
+            "mainperk": "Leviathan's Sigh: When fully drawn, the bolt creates a large concussive blast that knocks combatants back.",
+            "catalyst": "Colossal Quiver: Maximizes quiver size. AND Archer's Tempo: Draw time decreases after every precision hit."
+        },
+        {
+            "name": "One Thousand Voices",
+            "slot": "Solar Power",
+            "type": "Fusion Rifle",
+            "ammo": "Heavy",
+            "intrinsicperk": "Ahamkara's Eye: Charging this weapon unleashes a giant continuous beam of death.",
+            "mainperk": "Unforeseen Repercussions: This weapon's beam superheats its targets upon impact, causing delayed explosions.",
+            "catalyst": "None."
+        },
+        {
+            "name": "Anarchy",
+            "slot": "Arc Power",
+            "type": "Grenade Launcher",
+            "ammo": "Heavy",
+            "intrinsicperk": "Arc Traps: Grenades stick to surfaces and chain Arc bolts to other mines.",
+            "mainperk": "Moving Target: Increased movement speed and target acquisition when moving while aiming down sights.",
+            "catalyst": "None."
+        },
+        {
+            "name": "Salvation's Grip",
+            "slot": "Stasis Power",
+            "type": "Grenade Launcher",
+            "ammo": "Heavy",
+            "intrinsicperk": "Cryocannon: Hold to charge; release to fire. This weapon's projectiles create Stasis crystals and freeze nearby targets.",
+            "mainperk": "Flash Freeze: Charging this weapon increases the freeze radius and amount of Stasis crystals created.",
+            "catalyst": "None."
+        },
+        {
+            "name": "The Colony",
+            "slot": "Void Power",
+            "type": "Grenade Launcher",
+            "ammo": "Heavy",
+            "intrinsicperk": "Insectoid Robot Grenades: This weapon's grenades are insectoid robots that chase targets and explode close to them.",
+            "mainperk": "Serve the Colony: Insectoid robot grenades quickly repopulate the magazine from reserves while the Colony is unequipped.",
+            "catalyst": "Magazine +10"
+        },
+        {
+            "name": "The Prospector",
+            "slot": "Arc Power",
+            "type": "Grenade Launcher",
+            "ammo": "Heavy",
+            "intrinsicperk": "Excavation: Fire grenades. Release to detonate all live grenades simultaneously. Grenades stick to surfaces and set targets on fire.",
+            "mainperk": "Full Auto Trigger System: Holding down the trigger will fire this weapon at full auto.",
+            "catalyst": "Blast Radius +40 AND Deeper Pockets: Increased ammo reserves."
+        },
+        {
+            "name": "Sleeper Simulant",
+            "slot": "Solar Power",
+            "type": "Linear Fusion Rifle",
+            "ammo": "Heavy",
+            "intrinsicperk": "Dornröschen: The weapon's laser overpenetrates enemies and refracts off hard surfaces.",
+            "mainperk": "Moving Target: Increased movement speed and target acquisition when moving while aiming down sights.",
+            "catalyst": "Accerlerated Coils: Speeds up weapon charge. AND Deeper Pockets: Increased ammo reserves."
+        },
+        {
+            "name": "The Queenbreaker",
+            "slot": "Arc Power",
+            "type": "Linear Fusion Rifle",
+            "ammo": "Heavy",
+            "intrinsicperk": "Wire Rifle: Fires a long-range precision Arc bolt that blinds enemies on hit.",
+            "mainperk": "Hip-Fire Grip: Increases accuracy, stability, and precision hit targeting when firing from the hip. OR Quickdraw: This weapon can be drawn unbelievably fast.",
+            "catalyst": "None."
+        },
+        {
+            "name": "Heir Apparent",
+            "slot": "Solar Power",
+            "type": "Machine Gun",
+            "ammo": "Heavy",
+            "intrinsicperk": "Heavy Slug Thrower: Spins up this weapon. This weapon can be fired only when fully spun up.",
+            "mainperk": "Armor of the Colossus: While at full health, spinning up this weapon protects you with an Arc Shield.",
+            "catalyst": "Legion's Bulwark: Increases the Arc Shield's durability and partially reloads the magazine if it is destroyed."
+        },
+        {
+            "name": "Thunderlord",
+            "slot": "Arc Power",
+            "type": "Machine Gun",
+            "ammo": "Heavy",
+            "intrinsicperk": "Reign Havoc: Kills with this weapon generate lightning strikes from above.",
+            "mainperk": "Feeding Frenzy: Each rapid kill with this weapon progressively increases reload speed for a short time.",
+            "catalyst": "None."
+        },
+        {
+            "name": "Xenophage",
+            "slot": "Solar Power",
+            "type": "Machine Gun",
+            "ammo": "Heavy",
+            "intrinsicperk": "Pyrotoxin Rounds: Fires high-powered explosive ammunition.",
+            "mainperk": "Rangefinder: Aiming this weapon increases its effective range and zoom magnification.",
+            "catalyst": "None."
+        },
+        {
+            "name": "Deathbringer",
+            "slot": "Void Power",
+            "type": "Rocket Launcher",
+            "ammo": "Heavy",
+            "intrinsicperk": "Dark Deliverance: Fires remotely detonated projectiles that drop Void orbs on combatants. Fire; release to detonate.",
+            "mainperk": "Dark Descent: The further a Void orb falls, the more powerful its detonation becomes.",
+            "catalyst": "Dead Weight: Increases how quickly Dark Descent reaches its full potential."
+        },
+        {
+            "name": "Eyes of Tomorrow",
+            "slot": "Solar Power",
+            "type": "Rocket Launcher",
+            "ammo": "Heavy",
+            "intrinsicperk": "Eyes on All : This weapon is capable of tracking and firing at multiple targets simultaneously.",
+            "mainperk": "Adaptive Ordnance: Killing four or more combatants in a single volley increases the damage of the next volley.",
+            "catalyst": "None."
+        },
+        {
+            "name": "Gjallarhorn",
+            "slot": "Solar Power",
+            "type": "Rocket Launcher",
+            "ammo": "Heavy",
+            "intrinsicperk": "Wolfpack Rounds: Rounds fired split into tracking cluster missiles upon detonation.",
+            "mainperk": "Pack Hunter: Gain increased handling and reload speed when standing near allies. Firing this weapon also grants Wolfpack Rounds to nearby allies wielding non-Exotic Rocket Launchers.",
+            "catalyst": "Magazine +20 AND More Wolves: Increases magazine size. Final blows with Wolfpack Rounds spawn a faster, more powerful missile at the target's location."
+        },
+        {
+            "name": "The Wardcliff Coil",
+            "slot": "Arc Power",
+            "type": "Rocket Launcher",
+            "ammo": "Heavy",
+            "intrinsicperk": "Mad Scientist: This weapon fires a volley of rockets.",
+            "mainperk": "Mechanized Autoloader: This weapon automatically reloads on ammo pickup.",
+            "catalyst": "Pinpoint Guidance Model: Improved tracking on projectiles."
+        },
+        {
+            "name": "Truth",
+            "slot": "Void Power",
+            "type": "Rocket Launcher",
+            "ammo": "Heavy",
+            "intrinsicperk": "Prototype Trueseeker: This weapon's rockets have tracking. Lock onto targets when aiming down sights.",
+            "mainperk": "Grenades and Horseshoes: Projectiles will detonate when they are within close proximity of their targets.",
+            "catalyst": "None."
+        },
+        {
+            "name": "Two-Tailed Fox",
+            "slot": "Void Power",
+            "type": "Rocket Launcher",
+            "ammo": "Heavy",
+            "intrinsicperk": "Twintails: Shoots two rockets, one Void and one Solar, that can track onto the same target.",
+            "mainperk": "Play with Your Prey: The Void rocket suppresses enemies. The Solar rocket causes damage over time.",
+            "catalyst": "None."
+        },
+        {
+            "name": "Legend of Acrius",
+            "slot": "Arc Power",
+            "type": "Shotgun",
+            "ammo": "Heavy",
+            "intrinsicperk": "Shock Blast: This weapon fires blasts of high-damage Arc energy that overpenetrates enemies.",
+            "mainperk": "Long March: Detect enemies on your radar from farther away.",
+            "catalyst": "Reload Speed +40 AND Magazine +40 AND Deeper Pockets: Increased ammo reserves."
+        },
+        {
+            "name": "Tractor Cannon",
+            "slot": "Void Power",
+            "type": "Shotgun",
+            "ammo": "Heavy",
+            "intrinsicperk": "Repulsor Force: This weapon emits a powerful impulse that pushes enemies away, suppresses their abilities, and makes them more vulnerable to all incoming damage.",
+            "mainperk": "The Scientific Method: Damaging an opponent temporarily increases speed and handling.",
+            "catalyst": "Magazine +70 AND Deeper Pockets: Increased ammo reserves."
+        },
+        {
+            "name": "D.A.R.C.I.",
+            "slot": "Arc Power",
+            "type": "Sniper Rifle",
+            "ammo": "Heavy",
+            "intrinsicperk": "Personal Assistant: Aim at an enemy to view its health and other critical information in the scope.",
+            "mainperk": "Target Acquired: When Personal Assistant is active, this weapon has better target acquisition and deals significantly more precision damage.",
+            "catalyst": "Stability +20"
+        },
+        {
+            "name": "Whisper of the Worm",
+            "slot": "Solar Power",
+            "type": "Sniper Rifle",
+            "ammo": "Heavy",
+            "intrinsicperk": "White Nail: Higher base precision damage. Rapidly landing three precision hits will refill the magazine.",
+            "mainperk": "Mulligan: Missing a shot has a chance to return ammo directly to the magazine.",
+            "catalyst": "Reload Speed +30 AND Whispered Breathing: Aiming this weapon without firing for a brief moment grants bonus range and precision damage while it remains zoomed."
+        },
+        {
+            "name": "Black Talon",
+            "slot": "Void Power",
+            "type": "Sword",
+            "ammo": "Heavy",
+            "intrinsicperk": "Crow's Wings: Fire a heavy projectile attack. Heavy attacks are stronger with full energy.",
+            "mainperk": "Tireless Blade: Sword ammo granted for every other powered sword kill.",
+            "catalyst": "Reversal: Shots blocked immediately after guarding increase the damage of Crow's Wings for a very short duration."
+        },
+        {
+            "name": "The Lament",
+            "slot": "Solar Power",
+            "type": "Sword",
+            "ammo": "Heavy",
+            "intrinsicperk": "Banshee's Wail: [Block] : Hold to rev the blade. Increases damage and adds [Shield-Piercing] shield piercing to all attacks. Gain stacks when dealing damage with revved attacks. Additional stacks increase the damage and damage resistance of heavy attacks.",
+            "mainperk": "Revved Consumption: Damaging a combatant heals the wielder.",
+            "catalyst": "None."
+        },
+        {
+            "name": "Worldline Zero",
+            "slot": "Arc Power",
+            "type": "Sword",
+            "ammo": "Heavy",
+            "intrinsicperk": "Tesseract: Use while sprinting with full energy to launch a heavy Blink attack.",
+            "mainperk": "Tireless Blade: Sword ammo granted for every other powered sword kill.",
+            "catalyst": "Another Dimension: Reduces the activation time of Tesseract."
+        }
+    ]
+}
